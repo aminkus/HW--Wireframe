@@ -1,0 +1,64 @@
+body {
+    background-color:lightgreen;
+    margin:0;
+    padding:0;
+    line-height:2;
+}
+
+header {
+    background: #ffffff;
+    margin-bottom: 25px;
+}
+
+#section1 {
+    width:960px;
+    margin:0 auto;
+}
+
+h1 {
+    margin:0;
+    margin-right:0;
+    padding-right:0;
+    background-color:#4aaaa5;
+}
+
+#name {
+    text-align: center;
+    width:30%;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* .links {
+    width:50%;
+} */
+
+.section2 {
+    width:960px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+.content {
+    margin-right: 20px;
+    margin-left: 20px;
+    height: 1000px;
+}
+
+
+#aboutMe {
+    background-color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:#4aaaa5;
+}
+
+img {
+    float: left;
+    margin-right: 20px;
+}
+
+p {
+    margin
+}
+
+

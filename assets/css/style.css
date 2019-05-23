@@ -1,5 +1,5 @@
 body {
-    background-color:lightgreen;
+    background-color:lightslategrey;
     margin:0;
     padding:0;
     line-height:2;
@@ -11,6 +11,7 @@ header {
     background: #ffffff;
    height: 70px;
    margin-bottom: 25px;
+   border-bottom: solid 5px #cccccc;
 }
 
 #section1 {
@@ -23,6 +24,7 @@ h1 {
     margin-right:0;
     padding-right:0;
     background-color:#4aaaa5;
+    height: 70px;
 }
 
 #name {
@@ -38,12 +40,14 @@ h1 {
     float: right;
     text-align: right;
     padding-top: 12px;
+    word-spacing: 5px;
 }
 
 .section2 {
     width:960px;
     margin: 0 auto;
     background-color: white;
+    border: solid 3px #ffffff;
     margin-bottom: 100px;
     padding-bottom: 25px;
     clear: both;
@@ -52,7 +56,7 @@ h1 {
 .content {
     margin-right: 20px;
     margin-left: 20px;
-    /* height: 800px; */
+    height: 800px;
    
 }
 
@@ -86,3 +90,48 @@ footer {
     bottom: 0px;
     left: 50%;
 }
+
+input {
+    width: 100%;
+    height: 30px;
+}
+
+#submit {
+    width: 75px;
+    height: 30px;
+    background-color: #4aaaa5;
+    color: white;
+}
+
+.pic1 {
+    float: left;
+    padding-left: 25px;
+}
+
+.pic2 {
+    float: left;
+}
+
+.pic3 {
+    float: left;
+}
+
+.pic4 {
+    float: left;
+}
+
+.container {
+    position:relative;
+}
+
+.pictext {
+    position: absolute;
+    bottom: 0;
+    padding-left: 60px;
+    background-color: #4aaaa5;
+    width: 200px;
+    box-sizing: border-box;
+
+
+}
+

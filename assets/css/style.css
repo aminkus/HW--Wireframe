@@ -11,12 +11,13 @@ header {
     background: #ffffff;
    height: 70px;
    margin-bottom: 25px;
-   border-bottom: solid 5px #cccccc;
+   border-bottom: solid 2px pink;;
 }
 
 #section1 {
     width:960px;
     margin:0 auto;
+    border: solid 1px #cccccc;
 }
 
 h1 {
@@ -75,7 +76,7 @@ img {
 footer {
     height: 75px;
     background-color:  #777777;
-    border-top: solid 10px;
+    border-top: solid 5px;
     border-color: pink;
     position: fixed;
     bottom: 0px;
@@ -127,11 +128,10 @@ input {
 .pictext {
     position: absolute;
     bottom: 0;
-    padding-left: 60px;
+    padding-left: 75px;
     background-color: #4aaaa5;
     width: 200px;
     box-sizing: border-box;
-
-
+    color: white;
 }
 
